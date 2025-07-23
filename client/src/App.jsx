@@ -33,7 +33,7 @@ const App = () => {
     },
     {},
   ]);
-  return <RouterProvider route={routes} />;
+  return <RouterProvider router={routes} />;
 };
 
 export default App;
