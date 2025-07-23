@@ -1,12 +1,16 @@
 import React from 'react'
 import axios from 'axios'
-import 
+import { createBrowserRouter,RouterProvider } from 'react-router-dom'
+import Home from './components/Home'
 const App = () => {
+  const routes = createBrowserRouter([
+    {
+      path:'/',
+      element: <Home/>
+    }
+  ])
   return (
-    <div>
-      <h1>Test</h1>
-      
-    </div>
+    <RouterProvider/>
   )
 }
 
