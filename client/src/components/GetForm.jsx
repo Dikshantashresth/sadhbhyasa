@@ -1,6 +1,6 @@
 import React from 'react'
-import axios from 'axios'
-const App = () => {
+
+const GetForm = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const App = () => {
   )
 }
 
-export default App
+export default GetForm
